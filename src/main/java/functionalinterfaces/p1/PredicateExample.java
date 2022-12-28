@@ -9,7 +9,6 @@ public class PredicateExample {
         predicateExample();
     }
 
-
     private static void predicateExample() {
         System.out.println("Number is divisible by 2: " + (predicateDivisibleBy2.test(5)));
         System.out.println("Number is divisible by 5: " + (predicateDivisibleBy5.test(5)));
