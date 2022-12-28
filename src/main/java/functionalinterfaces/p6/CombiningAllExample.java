@@ -1,7 +1,7 @@
 package functionalinterfaces.p6;
 
-import functionalinterfaces.common.Database;
-import functionalinterfaces.common.Student;
+import common.Database;
+import common.Student;
 
 import java.util.List;
 import java.util.function.BiConsumer;

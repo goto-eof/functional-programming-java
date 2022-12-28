@@ -1,6 +1,6 @@
 package methodreference;
 
-import functionalinterfaces.common.Student;
+import common.Student;
 
 import java.util.function.Function;
 import java.util.function.Supplier;

@@ -1,7 +1,7 @@
 package functionalinterfaces.p7;
 
-import functionalinterfaces.common.Database;
-import functionalinterfaces.common.Student;
+import common.Database;
+import common.Student;
 
 import java.util.function.BiPredicate;
 import java.util.function.Consumer;

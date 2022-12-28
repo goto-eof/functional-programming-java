@@ -1,9 +1,8 @@
 package stream;
 
-import functionalinterfaces.common.Database;
-import functionalinterfaces.common.Student;
+import common.Database;
+import common.Student;
 
-import java.sql.SQLOutput;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 

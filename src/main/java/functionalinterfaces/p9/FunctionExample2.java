@@ -1,7 +1,7 @@
 package functionalinterfaces.p9;
 
-import functionalinterfaces.common.Database;
-import functionalinterfaces.common.Student;
+import common.Database;
+import common.Student;
 
 import java.util.HashMap;
 import java.util.List;
