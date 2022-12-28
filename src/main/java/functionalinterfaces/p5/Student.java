@@ -1,4 +1,4 @@
-package functionalinterfaces.ce2;
+package functionalinterfaces.p5;
 
 import java.util.ArrayList;
 import java.util.List;

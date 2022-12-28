@@ -1,9 +1,8 @@
 package functionalinterfaces.p2;
 
-import functionalinterfaces.ce2.Database;
-import functionalinterfaces.ce2.Student;
+import functionalinterfaces.p5.Database;
+import functionalinterfaces.p5.Student;
 
-import javax.xml.crypto.Data;
 import java.util.function.Predicate;
 
 public class PredicateExample2 {

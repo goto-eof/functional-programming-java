@@ -1,6 +1,5 @@
-package functionalinterfaces.ce1;
+package functionalinterfaces.p4;
 
-import java.sql.SQLOutput;
 import java.util.function.Consumer;
 
 public class ConsumerExample {
