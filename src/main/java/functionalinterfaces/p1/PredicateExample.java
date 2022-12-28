@@ -5,7 +5,6 @@ import java.util.function.Predicate;
 public class PredicateExample {
     static Predicate<Integer> predicateDivisibleBy2 = (number) -> number % 2 == 0;
     static Predicate<Integer> predicateDivisibleBy5 = (number) -> number % 5 == 0;
-
     public static void main(String[] args) {
         predicateExample();
     }
