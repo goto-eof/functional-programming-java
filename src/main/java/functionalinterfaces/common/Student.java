@@ -20,6 +20,14 @@ public class Student {
         this.activities = activities;
     }
 
+    public Student() {
+        super();
+    }
+
+    public Student(String s) {
+        this.name = s;
+    }
+
     public String getName() {
         return name;
     }
@@ -61,6 +69,10 @@ public class Student {
         this.activities = activities;
     }
 
+
+    public void printToString(){
+        System.out.println(this.toString());
+    }
 
     @Override
     public String toString() {
