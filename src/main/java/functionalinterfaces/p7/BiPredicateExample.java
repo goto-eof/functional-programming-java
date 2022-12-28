@@ -1,11 +1,10 @@
 package functionalinterfaces.p7;
 
-import functionalinterfaces.p5.Database;
-import functionalinterfaces.p5.Student;
+import functionalinterfaces.common.Database;
+import functionalinterfaces.common.Student;
 
 import java.util.function.BiPredicate;
 import java.util.function.Consumer;
-import java.util.function.Predicate;
 
 public class BiPredicateExample {
     static BiPredicate<Integer, Double> predicateAgeAndRating = (age, rating) -> age > 13 && rating > 0.4;

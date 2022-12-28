@@ -1,4 +1,4 @@
-package functionalinterfaces.p5;
+package functionalinterfaces.common;
 
 import java.util.ArrayList;
 import java.util.Arrays;

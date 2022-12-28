@@ -1,6 +1,6 @@
-package functionalinterfaces.p3;
+package functionalinterfaces.p5;
 
-import functionalinterfaces.p5.Database;
+import functionalinterfaces.common.Database;
 
 import java.util.function.BiConsumer;
 

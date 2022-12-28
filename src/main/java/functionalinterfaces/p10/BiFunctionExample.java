@@ -1,7 +1,7 @@
 package functionalinterfaces.p10;
 
-import functionalinterfaces.p5.Database;
-import functionalinterfaces.p5.Student;
+import functionalinterfaces.common.Database;
+import functionalinterfaces.common.Student;
 
 import java.util.HashMap;
 import java.util.List;
