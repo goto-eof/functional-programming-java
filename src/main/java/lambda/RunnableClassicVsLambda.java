@@ -1,3 +1,5 @@
+package lambda;
+
 public class RunnableClassicVsLambda {
 
     public static void main(String[] args) {
