@@ -10,9 +10,18 @@ public class Student {
     private int age;
     private double rate;
     private List<String> activities = new ArrayList<>();
+    private int laptop;
 
+    public Student(String name, String lastName, int age, double rate, List<String> activities, int laptop) {
+        this.name = name;
+        this.lastName = lastName;
+        this.age = age;
+        this.rate = rate;
+        this.activities = activities;
+        this.laptop = laptop;
+    }
 
-    public Student(String name, String lastName, int age, double rate, List<String> activities) {
+    public  Student(String name, String lastName, int age, double rate, List<String> activities) {
         this.name = name;
         this.lastName = lastName;
         this.age = age;
@@ -26,6 +35,14 @@ public class Student {
 
     public Student(String s) {
         this.name = s;
+    }
+
+    public int getLaptop() {
+        return laptop;
+    }
+
+    public void setLaptop(int laptop) {
+        this.laptop = laptop;
     }
 
     public String getName() {
