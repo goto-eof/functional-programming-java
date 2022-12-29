@@ -99,6 +99,7 @@ public class Student {
                 ", age=" + age +
                 ", rate=" + rate +
                 ", activities=" + activities +
+                ", laptop=" + laptop +
                 '}';
     }
 }
